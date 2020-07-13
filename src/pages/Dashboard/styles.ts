@@ -9,6 +9,17 @@ export const Container = styled.div`
   max-width: 1120px;
   margin: 0 auto;
   padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    align-self: center;
+    display: block;
+    margin-top: 20px;
+    right: 0;
+    text-decoration: none;
+    color: #3a3a3a;
+  }
 `;
 
 export const Title = styled.h1`
@@ -48,7 +59,7 @@ export const Card = styled.div`
 `;
 
 export const TableContainer = styled.section`
-  margin-top: 64px;
+  margin-top: 44px;
 
   table {
     width: 100%;
